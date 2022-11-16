@@ -26,22 +26,22 @@ X, Y = np.meshgrid(x, y)
 # Calcula a magnetude
 G = abs(f(X + Y*1j))
 
-# Configuracao do grafico da magnetude
+# Plot grafico 3D da magnitude
 fig = plt.figure()
 ax = plt.axes(projection='3d')
 ax.set_zlim([0,5])
 ax.plot_surface(X, Y, G, cmap='coolwarm')
-ax.plot
 ax.set_title('Magnetude da Funcao de Tranferencia')
 ax.set_xlabel('Real')
 ax.set_ylabel('Imaginario')
 ax.set_zlabel('Magnetude')
 
-# Plot do eixo imag
+# Plot do grafico 2D da magnitude em corte em real=0
 plt.figure()
 plt.plot(y, f(y*1j))
 plt.xlabel('Imaginario')
 plt.ylabel('Magnetude')
 plt.grid(True)
 
+# Exibe os graficos
 plt.show()
