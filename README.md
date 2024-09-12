@@ -3,6 +3,7 @@ Ele cria uma gráfico de polos e zeros dado uma função de transferência, são
 
 A seguinte função de transferência foi usada como exemplo: $𝐻(𝑠)=((𝑠+1)∗(𝑠+2))/((2+2𝑠+3)∗(𝑠+3))$ 
 Gerando os seguinte gráficos:
+
 <img src="imgs/diagrama.png" width="50%">
 <img src="imgs/magnitude.png" width="50%">
 <img src="imgs/magnitude _corte_0.png" width="50%">
